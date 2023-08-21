@@ -1,14 +1,14 @@
-class Name:
-    def __int__(self,name):
+class Name():
+    def __init__(self, name):
         self.name = name
 
-class Age:
-    def __int__(self,age):
+class Age():
+    def __init__(self,age):
         self.age = age
 
-class Three():
+class Metod1():
     def metod1(self):...
 
 
-class Four():
+class Metod2():
     def metod2(self):...

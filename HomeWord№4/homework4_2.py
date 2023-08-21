@@ -1,16 +1,21 @@
-from homework4 import Name,Age, Three,Four
+from homework4 import Name, Age, Metod1, Metod2
 
-class Final(Name, Age, Three, Four):
-    def __init__(self, name, age):
-        Name.__init__(self,name)
-        Age.__init__(self,age)
+
+class FinalClass(Name, Age, Metod1, Metod2):
+    def __init__(self, name, _age):
+        Name.__init__(self, name)
+        Age.__init__(self, _age)
 
     @property
     def age(self):
         return self._age
 
     @age.setter
-    def age(self, value):
-            self._age = value
+    def age(self, age):
+            self._age = age
 
-person = Final("Куба", 21)
+
+person = FinalClass("Beka", 20)
+print(person.name)
+print(person.age)
+
