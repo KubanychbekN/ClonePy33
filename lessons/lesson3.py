@@ -62,8 +62,8 @@ account.public_data()
 #Для изменения значений атрибутов
 account.name = 'Бекболот'
 account.age = 151
-account.money = -5
-account.password = 'p5454'
+account.money = 500
+account.password = 'p54'
 print('---------------------')
 #Вывод новых значений
 print(account.name)
