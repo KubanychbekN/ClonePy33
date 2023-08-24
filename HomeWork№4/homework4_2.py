@@ -1,4 +1,4 @@
-from lessons.homework4 import Name, Age, Metod1, Metod2
+from homework4 import Name, Age, Metod1, Metod2
 
 
 class FinalClass(Name, Age, Metod1, Metod2):
